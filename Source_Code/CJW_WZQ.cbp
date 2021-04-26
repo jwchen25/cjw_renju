@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CJW_WZQ" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/CJW_WZQ" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-static" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/CJW_WZQ" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/CJW_AI.h" />
+		<Unit filename="include/CJW_Chessboard.h" />
+		<Unit filename="include/CJW_Forbidden.h" />
+		<Unit filename="include/CJW_Game.h" />
+		<Unit filename="include/CJW_Timer.h" />
+		<Unit filename="include/CJW_UI.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/CJW_AI.cpp" />
+		<Unit filename="src/CJW_Chessboard.cpp" />
+		<Unit filename="src/CJW_Forbidden.cpp" />
+		<Unit filename="src/CJW_Game.cpp" />
+		<Unit filename="src/CJW_Timer.cpp" />
+		<Unit filename="src/CJW_UI.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

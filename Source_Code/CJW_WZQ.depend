@@ -1,0 +1,57 @@
+# depslib dependency file v1.0
+1573216607 source:d:\ucas\cjw_wzq\src\cjw_chessboard.cpp
+	"CJW_Chessboard.h"
+
+1572962789 d:\ucas\cjw_wzq\include\cjw_chessboard.h
+	<iostream>
+	<string>
+
+1573372923 source:d:\ucas\cjw_wzq\main.cpp
+	<iostream>
+	"CJW_Chessboard.h"
+	"CJW_Game.h"
+	"CJW_UI.h"
+
+1575285046 source:d:\ucas\cjw_wzq\src\cjw_game.cpp
+	"CJW_Game.h"
+
+1575285648 d:\ucas\cjw_wzq\include\cjw_game.h
+	<iostream>
+	<string>
+	<conio.h>
+	<cstdlib>
+	<thread>
+	<windows.h>
+	"CJW_Chessboard.h"
+	"CJW_AI.h"
+	"CJW_Forbidden.h"
+	"CJW_Timer.h"
+
+1573054305 d:\ucas\cjw_wzq\include\cjw_ai.h
+
+1573274998 source:d:\ucas\cjw_wzq\src\cjw_ai.cpp
+	"CJW_AI.h"
+	<vector>
+
+1573220086 source:d:\ucas\cjw_wzq\src\cjw_timer.cpp
+	"CJW_Timer.h"
+
+1573219852 d:\ucas\cjw_wzq\include\cjw_timer.h
+	<iostream>
+	<string>
+	<windows.h>
+
+1575284732 source:d:\ucas\cjw_wzq\src\cjw_ui.cpp
+	"CJW_UI.h"
+
+1573292142 d:\ucas\cjw_wzq\include\cjw_ui.h
+	<iostream>
+	<conio.h>
+	<windows.h>
+
+1573369641 source:d:\ucas\cjw_wzq\src\cjw_forbidden.cpp
+	"CJW_Forbidden.h"
+
+1573369055 d:\ucas\cjw_wzq\include\cjw_forbidden.h
+	<iostream>
+
